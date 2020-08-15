@@ -1,7 +1,7 @@
 {
   "name": "is-year-2020-over-yet",
   "version": "0.1.0",
-  "private": true,
+  "main": "server.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -21,19 +21,14 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashannon1990/is-year-2020-over-yet.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "Anthony Shannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashannon1990/is-year-2020-over-yet/issues"
+  },
+  "homepage": "https://github.com/ashannon1990/is-year-2020-over-yet#readme"
 }
