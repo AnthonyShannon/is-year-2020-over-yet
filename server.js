@@ -1,12 +1,12 @@
 const express = require("express");
-const routes = require("./routes/index.js");
+// const routes = require("./routes/index.js");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Serve up static assets
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static("client/build"));
-// }
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets
