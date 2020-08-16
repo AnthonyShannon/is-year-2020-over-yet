@@ -6,7 +6,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh',
+    height: '80vh',
     fontSize: 80
   }
 }
