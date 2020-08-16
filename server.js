@@ -1,5 +1,4 @@
 const express = require("express");
-// const routes = require("./routes/index.js");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
