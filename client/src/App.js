@@ -27,7 +27,8 @@ function App() {
         answer={
           thisYear === 2020 ?
             "NO" :
-            "YES"} />
+            "YES"}
+      />
     </div>
   );
 }
